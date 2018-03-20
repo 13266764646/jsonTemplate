@@ -1,0 +1,72 @@
+{
+	"dDate": "orderInfo.createdDate",
+	"cSOCode": "orderInfo.id",
+	"cCusCode": "orderInfo.purchaserId",
+	"cCusOAddress": "orderInfo.receivingInfo.country+orderInfo.receivingInfo.province+orderInfo.receivingInfo.city+orderInfo.receivingInfo.county+orderInfo.receivingInfo.address",
+	"cexch_name": "orderInfo.currency",
+	"cMemo": "orderInfo.userNoteInfo",
+	"cCusName": "userInfo.customerBase.customerName",
+	"cgatheringplan_yky": "现款业务",
+	"dcreatesystime": "orderInfo.createdDate",
+	"chdefine2": "orderInfo.receivingInfo.receiver",
+	"chdefine3": "orderInfo.receivingInfo.mobile",
+	"customer": {															
+		"cCusName": "userInfo.cCusName",
+		"cCusCode": "userInfo.cCusCode",
+		"cCusAbbName": "userInfo.cCusAbbName",
+		"cCusHeadCode": "userInfo.cCusHeadCode",
+		"cCCCode": "userInfo.cCCCode",
+		"cCreatePerson": "王二小",
+		"dCusCreateDatetime": "2017-03-03",
+		"cModifyPerson": "刘备",	
+		"dModifyDate": "2017-03-04",
+		"contact": [{
+						"YKYID":"userInfo.contact.partyId",
+						"cContactName":"userInfo.contact.name",
+						"cMobilePhone":"userInfo.contact.telNumber",
+						"cEmail":"userInfo.contact.mail",
+						"cOfficePhone":"userInfo.contact.telNumber" 
+					}]
+	},
+	"orderDetail":[{
+						"iQuantity":"orderInfo.orderItemList.quantity",
+						"iTaxUnitPrice":"orderInfo.orderItemList.price.unitPrice",
+						 "iSum":"orderInfo.orderItemList.amount",
+						 "cFree1":"orderInfo.orderItemList.mpn",
+						 "cDefine22":"orderInfo.orderItemList.brandName",
+						 "cDefine23":"orderInfo.orderItemList.brandName",
+						 "cInvCNameBig":"orderInfo.orderItemList.cateName",
+						 "cinvCName":"orderInfo.orderItemList.cate2Name",
+						 "cDefine24":"orderInfo.orderItemList.categoryName",
+						 "PinPaiID":"orderInfo.orderItemList.brandId",
+						 "CiXiaoleiID":"orderInfo.orderItemList.cateIds",
+						 "cVenCode":"orderInfo.orderItemList.vendorId"
+					}],
+	"vendor": [{
+				"cCreatePerson": "刘元",
+				"cDCCode": "vendors.info.regionName",
+				"cModifyPerson": "胡歌",
+				"cVCCode": "vendors.info.categoryName",
+				"cVenAbbName": "vendors.info.groupName",
+				"cVenAddress": "vendors.info.vendorInfoAttributeMap.VENDOR_INFO_REGRADDRESS",
+				"cVenCode": "vendors.info.partyCode",
+				"cVenLPerson": "vendors.info.vendorInfoAttributeMap.VENDOR_INFO_LEGALPERSON",
+				"cVenName": "vendors.info.groupNameFull",
+				"dVenCreateDatetime ": "2017-03-02",
+				"iVenCreLine": "vendors.credit.creditQuota",
+				"banksinfo":[{
+					          "cAccountName": "vendors.credit.partyBankAccount.accountName",
+							  "cVenAccount":"vendors.credit.partyBankAccount.bankAccount",
+							  "cVenBank":"vendors.credit.partyBankAccount.bankName",
+							  "fRegistFund": "vendors.credit.partyBankAccount.taxNumber",
+							  "isDefault":"vendors.credit.partyBankAccount.isDefault"	
+				}],
+				"venContact": [{
+								"YKYID": "vendors.contact.contactPersonInfoList.partyId",
+								"cContactName": "vendors.contact.contactPersonInfoList.lastNameLocal",
+								"cMobilePhone": "vendors.contact.contactPersonInfoList.tel",
+								"cEmail": "vendors.contact.contactPersonInfoList.mail",
+								"cOfficePhone": "vendors.contact.contactPersonInfoList.fixedtel"
+								}]
+			}]				
+}

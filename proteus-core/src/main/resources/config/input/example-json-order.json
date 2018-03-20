@@ -1,0 +1,603 @@
+{
+  "userInfo": {
+    "enterprise": {
+      "accountStatus": "ACCOUNT_NOT_VERIFIED",
+      "accountsStatus": "COMMON",
+      "activeStatus": "PARTY_VERIFIED",
+      "address": "贵阳市测试地址001",
+      "city": "520100",
+      "cityName": "贵阳市",
+      "country": "520103",
+      "countryName": "云岩区",
+      "id": "890466484604633088",
+      "map": {
+        "BUSI_LIC_PIC": "http://img2.ykystatic.com/sit/ent/certificates/201707/27/74c06faa851c00489ddf6425be83426f.png",
+        "BUSI_LIS_TYPE": "3-TO-1",
+        "CORPORATION_CATEGORY_ID": "2002",
+        "D_CODE": "234567",
+        "ENT_NAME": "易库易可以优先公司",
+        "INDUSTRY_CATEGORY_ID": "1002,1004",
+        "ORG_CODE": "34567",
+        "ORG_LIMIT": "2018-07-27",
+        "REG_ADDR": "0",
+        "SOCIAL_CODE": "123456",
+        "WEBSITE_URL": "www-sit.yikuyi.com"
+      },
+      "name": "易库易可以优先公司",
+      "partyStatus": "PARTY_ENABLED",
+      "province": "520000",
+      "provinceName": "贵州省"
+    },
+    "contact": [
+      {
+        "address": "贵阳市测试地址001",
+        "city": "520100",
+        "cityName": "贵阳市",
+        "country": "520103",
+        "countryName": "云岩区",
+        "entName": "易库易可以优先公司",
+        "loginCount": 0,
+        "mail": "xulican_008@126.com",
+        "mailStatus": "Y",
+        "manager": false,
+        "name": "xulican",
+        "partyId": "890466484705296384",
+        "personType": "COMMON",
+        "personalTitle": "other",
+        "province": "520000",
+        "provinceName": "贵州省",
+        "sex": "null",
+        "telNumber": "15072407606",
+        "telStatus": "Y",
+        "userType": 0
+      }
+    ],
+    "user": {
+      "accounttype": "2002",
+      "loginCount": 0,
+      "manager": false,
+      "name": "易库易可以优先公司",
+      "partyId": "890466484604633088"
+    }
+  },
+  "orderInfo": {
+    "autoCancelDate": 1521020948000,
+    "countdown": {
+      "hour": 47,
+      "minute": 59
+    },
+    "createdDate": 1520848148000,
+    "creator": "890466484705296384",
+    "currency": "CNY",
+    "estimatedShipCost": 0,
+    "grandTotal": 1262.46,
+    "id": "973133784218075136",
+    "isOperable": false,
+    "orderItemList": [
+      {
+        "amount": 1252,
+        "brandId": "4388",
+        "brandName": "MULTICOMP",
+        "cate2Name": "电阻",
+        "cateIds": "1-2-11",
+        "cateName": "无源器件",
+        "categoryName": "贴片电阻",
+        "createdDate": 1520848149000,
+        "isInvalid": 0,
+        "itemDescription": "SMD片式电阻, 厚膜, 4.7 Mohm, 50 V, 0402 [1005公制], 62.5 mW, ± 1%, MC系列",
+        "ltTime": "9-15",
+        "ltTimeType": 0,
+        "mpn": "MC00625W040214M70",
+        "orderItemSeqId": "973133784150966272",
+        "price": {
+          "unitPrice": 0.01252
+        },
+        "productId": "951036987618361344",
+        "productImgUrl": "//cn.element14.com/productimages/large/zh_CN/ROYALTHICKFILM-40.jpg",
+        "quantity": 100000,
+        "restrictMaterialType": "N",
+        "showVendor": false,
+        "sourceId": "950973877926756352",
+        "vendorId": "950177527886774272",
+        "vendorName": "ELUOMENG"
+      },
+      {
+        "amount": 10.46,
+        "brandId": "146",
+        "brandName": "BI TECHNOLOGIES",
+        "cate2Name": "电阻",
+        "cateIds": "1-2-3",
+        "cateName": "无源器件",
+        "categoryName": "拨轮式电位器",
+        "createdDate": 1520848149000,
+        "isInvalid": 0,
+        "itemDescription": "TRIMMER 10K OHM 3/8\" CERMET TH",
+        "ltTime": "9-15",
+        "ltTimeType": 0,
+        "mpn": "91AR10KLF",
+        "orderItemSeqId": "973133784180326400",
+        "price": {
+          "unitPrice": 10.46
+        },
+        "productId": "935289925295669248",
+        "productImgUrl": "//media.digikey.com/Photos/TT%20Electronics%20BI/91AR1MEGLF.jpg",
+        "quantity": 1,
+        "restrictMaterialType": "N",
+        "showVendor": false,
+        "sourceId": "934965123057975296",
+        "vendorId": "element14",
+        "vendorName": "element14"
+      }
+    ],
+    "orderPay": {
+      "amount": 1262.46,
+      "createdDate": 1520848166000,
+      "id": "973133784855609344",
+      "paymentMethodId": "TEST",
+      "paymentStatus": "PMNT_RECEIVED"
+    },
+    "orderStatus": "WAIT_SHIP",
+    "orderStatusHistories": [
+      {
+        "createdDate": 1520848149000,
+        "creator": "890466484705296384",
+        "orderStatus": "CREATED"
+      },
+      {
+        "createdDate": 1520848149000,
+        "creator": "890466484705296384",
+        "orderStatus": "WAIT_PAID"
+      },
+      {
+        "createdDate": 1520848166000,
+        "creator": "890466484705296384",
+        "orderStatus": "WAIT_SHIP"
+      }
+    ],
+    "paymentDate": 1520848166000,
+    "purchaserId": "890466484604633088",
+    "purchaserName": "易库易可以优先公司",
+    "receivingInfo": {
+      "address": "谢远鹏的测试地址",
+      "city": "邯郸市",
+      "contactMechType": 1,
+      "country": "中国",
+      "county": "峰峰矿区",
+      "mail": "xulican_008@126.com",
+      "mobile": "15072407606",
+      "phone": "",
+      "province": "河北省",
+      "provinceId": "130000",
+      "receiver": "xulican"
+    },
+    "remainingSubTotal": 1262.46,
+    "roleList": [
+      {
+        "orderId": "973133784218075136",
+        "partyId": "890466484604633088",
+        "partyName": "易库易可以优先公司",
+        "roleType": "CUSTOMER"
+      },
+      {
+        "orderId": "973133784218075136",
+        "partyId": "890466484705296384",
+        "partyName": "xulican",
+        "roleType": "BUYER"
+      },
+      {
+        "orderId": "973133784218075136",
+        "partyId": "99999999",
+        "partyName": "深圳易库易有限公司",
+        "roleType": "PRODUCT_STORE"
+      }
+    ],
+    "userNoteInfo": "test123123123123"
+  },
+  "vendors": [
+    {
+      "contact": {
+        "contactPersonInfoList": [
+          {
+            "address": "a",
+            "creator": "9999999901",
+            "fixedtel": "a",
+            "lastNameLocal": "a",
+            "mail": "a@qq.com",
+            "occupation": "a",
+            "partyId": "951282427441971200",
+            "personalTitle": "ENQUIRY",
+            "tel": "a"
+          }
+        ],
+        "deptId": "5e65555b-9c23-11e7-9",
+        "deptName": "运营部",
+        "description": "",
+        "enquiryList": [
+          "909659259921235968"
+        ],
+        "enquiryName": "Sxme-报价员",
+        "facilityList": [
+          {
+            "displayFlag": "N",
+            "facilityName": "英国仓1",
+            "facilityNameAlia": "英国仓",
+            "fromDate": 1515564815000,
+            "id": "950973877918367744",
+            "ownerPartyId": "950177527886774272"
+          },
+          {
+            "displayFlag": "N",
+            "facilityName": "英国仓",
+            "facilityNameAlia": "英国仓",
+            "fromDate": 1515564815000,
+            "id": "950973877926756352",
+            "isShowaFacility": "Y",
+            "ownerPartyId": "950177527886774272"
+          },
+          {
+            "displayFlag": "N",
+            "facilityName": "新加坡仓",
+            "facilityNameAlia": "新加坡仓",
+            "fromDate": 1515564815000,
+            "id": "950973878119694336",
+            "isShowaFacility": "Y",
+            "ownerPartyId": "950177527886774272"
+          },
+          {
+            "displayFlag": "N",
+            "facilityName": "上海仓",
+            "facilityNameAlia": "上海仓",
+            "fromDate": 1515564816000,
+            "id": "950973878367158272",
+            "ownerPartyId": "950177527886774272"
+          },
+          {
+            "displayFlag": "N",
+            "facilityName": "美国仓",
+            "facilityNameAlia": "美国仓",
+            "fromDate": 1519715570000,
+            "id": "968383406045921280",
+            "ownerPartyId": "950177527886774272"
+          }
+        ],
+        "isAutoIntegrateQty": "Y",
+        "isShowName": "Y",
+        "offerList": [
+          "909673486417395712"
+        ],
+        "offerName": "攀攀-负责人",
+        "orderVerify": "N",
+        "partyId": "950177527886774272",
+        "principalId": "921290008436932608",
+        "principalName": "管制物料订单审核专员",
+        "saleAttributeMap": {
+          "VENDOR_SALE_INFOVO_FOCUSFIELDS": "",
+          "VENDOR_SALE_INFOVO_MAJORCLIENTS": "",
+          "VENDOR_SALE_INFOVO_PRODUCTCATEGORYS": ""
+        },
+        "skuMovStatus": "N",
+        "supportCurrency": "",
+        "surplusQuota": 0.00000,
+        "vendorMovStatus": "Y"
+      },
+      "credit": {
+        "applyUser": "9999999901",
+        "checkCycle": "30",
+        "checkDate": "",
+        "createdDate": 1515374951000,
+        "creator": "9999999901",
+        "creditAttributeMap": {
+          "VENDOR_CREDIT_PURCHASEDEAL": "NOT_SIGN",
+          "VENDOR_CREDIT_PURCHASEDEALDATE": "",
+          "VENDOR_CREDIT_SECRECYPROTOCOL": "NOT_SIGN",
+          "VENDOR_CREDIT_SECRECYPROTOCOLDATE": ""
+        },
+        "creditDeadline": "",
+        "creditQuota": 0,
+        "currency": "CNY",
+        "fromDate": 1515374951000,
+        "lastUpdateDate": 1515374951000,
+        "lastUpdateUser": "9999999901",
+        "partyBankAccount": [
+          {
+            "accountName": "A",
+            "address": "A",
+            "bankAccount": "A",
+            "bankName": "A",
+            "contactNumber": "A",
+            "createdDate": 1515374951000,
+            "creator": "9999999901",
+            "currency": "CNY",
+            "isDefault": "N",
+            "lastUpdateDate": 1515374951000,
+            "lastUpdateUser": "9999999901",
+            "partyBankAccountId": "950177529694519296",
+            "partyId": "950177527886774272",
+            "status": "ENABLE",
+            "swiftCode": "",
+            "taxNumber": "A"
+          }
+        ],
+        "partyCreditId": "950177529669353472",
+        "partyId": "950177527886774272",
+        "payDate": "",
+        "paymentTerms": "",
+        "realtimeCreditQuota": 0
+      },
+      "info": {
+        "accountStatus": "VALID",
+        "category": "100001",
+        "categoryName": "授权分销商",
+        "deptId": "5e65555b-9c23-11e7-9",
+        "deptName": "运营部",
+        "enquiryList": [
+          "909659259921235968"
+        ],
+        "enquiryName": "Sxme-报价员",
+        "generalHeadquarters": "",
+        "genre": "100200",
+        "genreName": "外商投资企业",
+        "groupName": "ELUOMENG",
+        "groupNameFull": "ELUOMENG",
+        "isCore": "Y",
+        "listed": "N",
+        "logoImageUrl": "",
+        "offerList": [
+          "909673486417395712"
+        ],
+        "offerName": "攀攀-负责人",
+        "partyCode": "HKElement14",
+        "partyId": "950177527886774272",
+        "principalId": "921290008436932608",
+        "principalName": "管制物料订单审核专员",
+        "region": "100100",
+        "regionName": "中国大陆（包含香港、澳门）",
+        "vendorInfoAttributeMap": {
+          "VENDOR_INFO_EMPLOYEENUM": "",
+          "VENDOR_INFO_LEGALPERSON": "",
+          "VENDOR_INFO_REGPRICE": "",
+          "VENDOR_INFO_REGRADDRESS": "",
+          "VENDOR_INFO_WEBSITE": ""
+        }
+      }
+    },
+    {
+      "contact": {
+        "contactPersonInfoList": [
+          {
+            "address": "ffff",
+            "creator": "9999999901",
+            "fixedtel": "",
+            "lastNameLocal": "aaa",
+            "mail": "aaa@www.com",
+            "occupation": "bbbb",
+            "partyId": "928817812749680640",
+            "personalTitle": "ENQUIRY",
+            "tel": ""
+          }
+        ],
+        "deptId": "5e65555b-9c23-11e7-9",
+        "deptName": "运营部",
+        "description": "",
+        "enquiryList": [
+          "955261885664460800"
+        ],
+        "enquiryName": "市场测试角色",
+        "facilityList": [
+          {
+            "displayFlag": "N",
+            "facilityName": "美国仓",
+            "facilityNameAlia": "",
+            "fromDate": 1511748031000,
+            "id": "934965123057975296",
+            "isShowaFacility": "Y",
+            "ownerPartyId": "element14"
+          },
+          {
+            "displayFlag": "N",
+            "facilityName": "英国仓",
+            "facilityNameAlia": "",
+            "fromDate": 1511748031000,
+            "id": "934965123141861376",
+            "isShowaFacility": "Y",
+            "ownerPartyId": "element14"
+          },
+          {
+            "displayFlag": "N",
+            "facilityName": "新加坡仓",
+            "facilityNameAlia": "",
+            "fromDate": 1511748031000,
+            "id": "934965123695509504",
+            "isShowaFacility": "Y",
+            "ownerPartyId": "element14"
+          },
+          {
+            "displayFlag": "N",
+            "facilityName": "上海仓",
+            "facilityNameAlia": "上海仓",
+            "fromDate": 1513750999000,
+            "id": "943366180507222016",
+            "ownerPartyId": "element14"
+          },
+          {
+            "displayFlag": "N",
+            "facilityName": "英国仓",
+            "facilityNameAlia": "英国仓",
+            "fromDate": 1518340240000,
+            "id": "962614853690720256",
+            "ownerPartyId": "element14"
+          },
+          {
+            "displayFlag": "N",
+            "facilityName": "美国仓",
+            "facilityNameAlia": "美国仓",
+            "fromDate": 1518340240000,
+            "id": "962614854420529152",
+            "ownerPartyId": "element14"
+          },
+          {
+            "displayFlag": "N",
+            "facilityName": "E络盟",
+            "facilityNameAlia": "Default",
+            "id": "element14-100",
+            "ownerPartyId": "element14"
+          }
+        ],
+        "isAutoIntegrateQty": "Y",
+        "isShowName": "Y",
+        "offerList": [
+          "955261885664460800"
+        ],
+        "offerName": "市场测试角色",
+        "orderVerify": "N",
+        "partyId": "element14",
+        "partyProductLineList": [
+          {
+            "brandId": "338",
+            "brandName": "Knowles",
+            "brandSign": "N",
+            "category1Id": "700",
+            "category1Sign": "N",
+            "category2Id": "711",
+            "category2Sign": "N",
+            "category3Id": "714",
+            "category3Sign": "N",
+            "partyId": "element14",
+            "partyProductLineId": "950563307553554498",
+            "status": "ENABLE",
+            "type": "PROXY"
+          },
+          {
+            "brandId": "338",
+            "brandName": "Knowles",
+            "brandSign": "N",
+            "category1Id": "",
+            "category1Name": "开发板",
+            "category1Sign": "N",
+            "category2Id": "",
+            "category2Name": "评估板配件",
+            "category2Sign": "N",
+            "category3Id": "",
+            "category3Name": "评估板其他配件",
+            "category3Sign": "N",
+            "partyId": "element14",
+            "partyProductLineId": "950563307553554499",
+            "status": "ENABLE",
+            "type": "NOT_PROXY"
+          }
+        ],
+        "principalId": "910754469157797888",
+        "principalName": "钉钉-负责人",
+        "productInvalidDays": "2",
+        "saleAttributeMap": {
+          "VENDOR_SALE_INFOVO_FOCUSFIELDS": "",
+          "VENDOR_SALE_INFOVO_MAJORCLIENTS": "",
+          "VENDOR_SALE_INFOVO_PRODUCTCATEGORYS": ""
+        },
+        "skuMovStatus": "N",
+        "supportCurrency": "",
+        "surplusQuota": 0.00000,
+        "vendorMovStatus": "N"
+      },
+      "credit": {
+        "applyUser": "9999999901",
+        "checkCycle": "30",
+        "checkDate": "2",
+        "createdDate": 1510040782000,
+        "creator": "9999999901",
+        "creditAttributeMap": {
+          "VENDOR_CREDIT_PURCHASEDEAL": "NOT_SIGN",
+          "VENDOR_CREDIT_PURCHASEDEALDATE": "",
+          "VENDOR_CREDIT_SECRECYPROTOCOL": "NOT_SIGN",
+          "VENDOR_CREDIT_SECRECYPROTOCOLDATE": ""
+        },
+        "creditDeadline": "1",
+        "creditQuota": 50000,
+        "currency": "CNY",
+        "fromDate": 1510040782000,
+        "lastUpdateDate": 1520396905000,
+        "lastUpdateUser": "9999999901",
+        "partyBankAccount": [
+          {
+            "accountName": "中国银行",
+            "address": "111111111",
+            "bankAccount": "888888888",
+            "bankName": "工商银行",
+            "contactNumber": "222222222",
+            "createdDate": 1520396905000,
+            "creator": "9999999901",
+            "currency": "CNY",
+            "isDefault": "Y",
+            "lastUpdateDate": 1520396905000,
+            "lastUpdateUser": "9999999901",
+            "partyBankAccountId": "971241130387570688",
+            "partyId": "element14",
+            "status": "ENABLE",
+            "swiftCode": "",
+            "taxNumber": "666666666666"
+          },
+          {
+            "accountName": "中国银行1",
+            "address": "1111111112",
+            "bankAccount": "8888888881",
+            "bankName": "工商银行1",
+            "contactNumber": "2222222221",
+            "createdDate": 15203969050001,
+            "creator": "99999999011",
+            "currency": "CNY1",
+            "isDefault": "N",
+            "lastUpdateDate": 15203969050001,
+            "lastUpdateUser": "99999999011",
+            "partyBankAccountId": "9712411303875706881",
+            "partyId": "element14",
+            "status": "ENABLE1",
+            "swiftCode": "",
+            "taxNumber": "6666666666661"
+          }
+        ],
+        "partyCreditId": "927804403312754688",
+        "partyId": "element14",
+        "payDate": "9",
+        "paymentTerms": "11",
+        "realtimeCreditQuota": 0,
+        "settlementMethod": "11"
+      },
+      "info": {
+        "accountStatus": "VALID",
+        "category": "100001",
+        "categoryName": "授权分销商",
+        "deptId": "5e65555b-9c23-11e7-9",
+        "deptName": "运营部",
+        "enquiryList": [
+          "955261885664460800"
+        ],
+        "enquiryName": "市场测试角色",
+        "generalHeadquarters": "",
+        "genre": "100200",
+        "genreName": "外商投资企业",
+        "groupName": "element14",
+        "groupNameFull": "element14公司",
+        "isCore": "Y",
+        "listed": "N",
+        "logoImageUrl": "",
+        "offerList": [
+          "955261885664460800"
+        ],
+        "offerName": "市场测试角色",
+        "partyCode": "element14",
+        "partyId": "element14",
+        "principalId": "910754469157797888",
+        "principalName": "钉钉-负责人",
+        "region": "100100",
+        "regionName": "中国大陆（包含香港、澳门）",
+        "vendorInfoAttributeMap": {
+          "VENDOR_INFO_EMPLOYEENUM": "123",
+          "VENDOR_INFO_LEGALPERSON": "guowenyao",
+          "VENDOR_INFO_REGPRICE": "1000",
+          "VENDOR_INFO_REGRADDRESS": "麻雀林",
+          "VENDOR_INFO_WEBSITE": ""
+        }
+      }
+    }
+  ]
+}
