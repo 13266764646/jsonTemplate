@@ -1,5 +1,9 @@
 {
 	"First Name": "First Name",
 	"Last Name": "Last Name",
-	"Rented Films":"Rentals.Film Title"
+	"Rented Films":"Rentals.Film Title",
+	"erpPhone":"Phone",
+	"erpproduct": {
+		"erpProduct": {"erpsku":"order.product.sku","brandName":"order.product.brandName"}
+	}
 }

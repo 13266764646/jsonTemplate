@@ -20,6 +20,8 @@ package org.ppythagoras.proteus.core.client;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.ppythagoras.proteus.core.processor.Transformer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Client implementation.
@@ -28,6 +30,8 @@ import org.ppythagoras.proteus.core.processor.Transformer;
  *
  */
 class ProteusClientImpl {
+	
+	private static final Logger logger = LoggerFactory.getLogger(ProteusClientImpl.class);
 
 	ProteusClientImpl() {
 		super();
@@ -42,7 +46,7 @@ class ProteusClientImpl {
 			template = Transformer.transformImpl(input, new JSONObject(templateText));
 
 		} catch (JSONException e) {
-			e.printStackTrace();
+			logger.error("--------transformImpl-----error:{}--",e);
 		}
 
 		return template;

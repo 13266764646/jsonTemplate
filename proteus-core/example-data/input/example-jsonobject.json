@@ -7,6 +7,12 @@
   "First Name": "TIFFANY",
   "Last Name": "JORDAN",
   "Phone": "379804592943",
+  "order":{
+  	"product":{
+  		"sku":123,
+  		"brandName":"sumar"
+  	}
+  },
   "Rentals": [
     {
       "Film Title": "ROCKY WAR",

@@ -16,22 +16,22 @@ public class Example {
 
 		ProteusClient client = ProteusClient.getInstance();
 
-		JSONObject outputObject = singleDocumentExample(client, "example-data/templates/example-template-basic.json");
+	/*	JSONObject outputObject = singleDocumentExample(client, "example-data/templates/example-template-basic.json");
 
 		System.out.println("*********Single Document Demo - using JSONObject (Basic)*********");
-		System.out.println(outputObject.toString(3));
+		 System.out.println(outputObject.toString(3));
 
 		JSONArray outputArray = multiDocumentExample(client, "example-data/templates/example-template-basic.json");
 
 		System.out.println("*********Multi Document Demo - using JSONArray (Basic)*********");
-		System.out.println(outputArray.toString(3));
+		System.out.println(outputArray.toString(3));*/
 
-		outputObject = singleDocumentExample(client, "example-data/templates/example-template-advanced.json");
+		JSONObject outputObject = singleDocumentExample(client, "example-data/templates/example-template-advanced.json");
 
 		System.out.println("*********Single Document Demo - using JSONObject (Advanced)*********");
 		System.out.println(outputObject.toString(3));
 
-		outputArray = multiDocumentExample(client, "example-data/templates/example-template-advanced.json");
+		/*	outputArray = multiDocumentExample(client, "example-data/templates/example-template-advanced.json");
 
 		System.out.println("*********Multi Document Demo - using JSONArray (Advanced)*********");
 		System.out.println(outputArray.toString(3));
@@ -43,7 +43,7 @@ public class Example {
 		System.out.println("*********Multi Template Demo - using JSONArray (Advanced)*********");
 		for (JSONArray json : multipletemplateOutput) {
 			System.out.println(json.toString(3));
-		}
+		}*/
 
 	}
 
@@ -60,7 +60,7 @@ public class Example {
 
 		String templateJsonText = getJsonTextFromFile(templatePath);
 
-		JSONObject output = client.transform(inputJson, templateJsonText);
+		JSONObject output = client.transform(inputJson, templateJsonText.replace("\\m\\m\n", ""));
 
 		return output;
 

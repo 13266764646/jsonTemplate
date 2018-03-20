@@ -4,11 +4,27 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>org.ppythagoras.proteus</groupId>
-    <artifactId>proteus-parent</artifactId>
+    <groupId>com.yikuyi</groupId>
+    <artifactId>yky-jsonTemplate-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
 
+   <properties>
+		<env.nexus.domain>https://develop.yikuyi.com:28443</env.nexus.domain> <!-- 私服库地址 -->
+    </properties>
+	
+	 <distributionManagement>
+		<repository>
+			<id>nexus-releases</id>
+			<url>${env.nexus.domain}/nexus/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>${env.nexus.domain}/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
+	
     <modules>
         <module>proteus-core</module>
     </modules>

@@ -19,6 +19,8 @@ package org.ppythagoras.proteus.core.utils;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 import org.json.JSONArray;
@@ -47,11 +49,13 @@ public class JSONUtils implements Cloneable, Serializable {
 		Object currentJsonElement = input;
 
 		for (String key : searchKey.split("\\.")) {
-			currentJsonElement = pullDataFromJson(currentJsonElement, key);
+//			if(currentJsonElement.toString().contains("\""+key+"\":")){//guowenyao   20180314
+				currentJsonElement = pullDataFromJson(currentJsonElement, key);
+//			}
+			
 		}
 
 		List<Object> intermediateList = jsonToObjectArray(currentJsonElement);
-
 		for (Object obj : intermediateList) {
 			returnList.add(obj);
 		}
@@ -79,14 +83,16 @@ public class JSONUtils implements Cloneable, Serializable {
 				}
 
 			} else if (inputObject instanceof JSONArray) {
-
 				JSONArray jsonArray = (JSONArray) inputObject;
 
 				JSONArray returnArray = new JSONArray();
 
 				for (int j = 0; j < jsonArray.length(); j++) {
+					if(jsonArray.isNull(0)){ //[null]//guowenyao add 20180314
+						break;
+					}
 
-					Object obj = jsonArray.get(j);
+					Object obj = jsonArray.get(j); 
 
 					Object obj2 = pullDataFromJson(obj, key);
 

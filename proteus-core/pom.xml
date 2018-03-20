@@ -2,25 +2,52 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-
-
-	<groupId>org.ppythagoras.proteus</groupId>
-	<artifactId>proteus-core</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<artifactId>yky-jsonTemplate-core</artifactId>
 	<packaging>jar</packaging>
 	
-<parent>
-		<groupId>org.ppythagoras.proteus</groupId>
-		<artifactId>proteus-parent</artifactId>
-		<version>1.0-SNAPSHOT</version>
+    <parent>
+		<groupId>com.yikuyi</groupId>
+		<artifactId>yky-jsonTemplate-parent</artifactId>
+		<version>0.0.2-SNAPSHOT</version>
 	</parent>
-
+	
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20160810</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.16</version>
+		</dependency>
+		
+		<!-- logstash 日志集成 -->
+		<dependency>
+			<groupId>net.logstash.logback</groupId>
+			<artifactId>logstash-logback-encoder</artifactId>
+			<version>4.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>de.idealo.logback</groupId>
+			<artifactId>logback-redis</artifactId>
+			<version>0.9.3</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>commons-collections</groupId>
+		    <artifactId>commons-collections</artifactId>
+		    <version>3.2.2</version>
 		</dependency>
 
 	</dependencies>
